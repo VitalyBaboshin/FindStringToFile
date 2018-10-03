@@ -1,8 +1,8 @@
-#pragma once
+п»ї#pragma once
 #include <regex>
 
 using namespace std;
-//Из маски файла делаем фильтр для regex
+//РР· РјР°СЃРєРё С„Р°Р№Р»Р° РґРµР»Р°РµРј С„РёР»СЊС‚СЂ РґР»СЏ regex
 string GetRegexFromFileMask(string fileMask)
 {
 	regex rx1("[*]{1}");

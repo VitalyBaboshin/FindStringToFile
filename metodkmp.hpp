@@ -1,10 +1,10 @@
-#pragma once
+п»ї#pragma once
 #include <vector>
 
-//// Алгоритм Кнута-Морриса-Пратта
-// podStr   подстрока которую ищем
-// strText  строка поиска
-// prefix   массив длин префиксов для подстроки 
+//// РђР»РіРѕСЂРёС‚Рј РљРЅСѓС‚Р°-РњРѕСЂСЂРёСЃР°-РџСЂР°С‚С‚Р°
+// podStr   РїРѕРґСЃС‚СЂРѕРєР° РєРѕС‚РѕСЂСѓСЋ РёС‰РµРј
+// strText  СЃС‚СЂРѕРєР° РїРѕРёСЃРєР°
+// prefix   РјР°СЃСЃРёРІ РґР»РёРЅ РїСЂРµС„РёРєСЃРѕРІ РґР»СЏ РїРѕРґСЃС‚СЂРѕРєРё 
 
 bool KMP(const char* podStr,const int podStr_size, const char* strText, const int strText_size)
 {
